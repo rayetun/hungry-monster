@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900,900i');
+body,
+html {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	color: #303030;
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 15px;
+	font-weight: 500;
+	color: #252525;
+}
+
+body {
+	padding: 0;
+	margin: 0
+}
+a {
+	color: #4B4B4B;
+	cursor: pointer
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a:hover,
+a:focus,
+a:active 
+button:focus{
+	text-decoration: none;
+	color: #2C2933
+}
+input:focus {
+	outline: 0 solid;
+}
+body .form-control:focus {
+	border-color: #1d81f2;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0px 0px transparent, 0 0 0px transparent;
+	box-shadow: inset 0 0px 0px transparent, 0 0 0px transparent
+}
+body .form-control {
+	border-radius: 0px
+}
+
+/*==================================================
+    Hero Area CSS
+==================================================*/
+.meal-section{
+	padding: 100px 20px;
+}
+.input-group{
+	margin-bottom: 50px;
+	color: #989898;
+}
+.input-group i{
+	color: #989898;
+	padding: 15px 10px;
+}
+.form-control{
+	background-color: #f8f7f5!important;
+	border: none;
+	padding: 10px 25px;
+}
+.search-btn{
+	border-radius: 0 3px 3px 0!important;
+	background: #f04c4e;
+	border: none;
+	color: #fff;
+	padding: 15px 25px;
+}
+.search-icon{
+	border-radius: 3px 0 0 3px!important;
+	background: #f8f7f5!important;
+	border: none;
+}
+.meal-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+.singleMeal img{
+	width: 100%;
+	height: 226PX;
+	border-radius: 10px 10px 0 0;
+}
+.singleMeal{
+	border-radius: 10px 10px 0 0;
+	background: #f8f7f5
+}
+.singleMeal h3{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.ingredients{
+	display: block;
+	padding: 20px;
+	border-top: 3px solid #252525;
+}
+.ingredients{
+	margin-top: 20px;
+}
+.ingredients ul li{
+	text-transform: capitalize;
+}
