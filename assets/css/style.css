@@ -80,6 +80,7 @@ body .form-control {
 	border: none;
 	color: #fff;
 	padding: 15px 20px;
+	cursor: pointer;
 }
 .search-icon{
 	border-radius: 3px 0 0 3px!important;
