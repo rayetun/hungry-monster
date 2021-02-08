@@ -9,15 +9,15 @@ const searchResult = meal => {
 	const parentDiv = document.getElementById('mealItems');
 	parentDiv.innerHTML = '';
 	meal.forEach(meals =>{
-		const singleDiv = document.createElement('div');
-		singleDiv.className = 'singleMeal';
-		const mealItem = `
-			<div class="basic-info">
-				<img src="${meals.strMealThumb}" alt="">
-				<h3>${meals.strMeal}</h3>
-			</div>
-		`
-		singleDiv.innerHTML = mealItem;
-		parentDiv.appendChild(singleDiv);
+	const singleDiv = document.createElement('div');
+	singleDiv.className = 'singleMeal';
+	const mealItem = `
+		<div class="basic-info">
+			<img src="${meals.strMealThumb}" alt="">
+			<h3>${meals.strMeal}</h3>
+		</div>
+	`
+	singleDiv.innerHTML = mealItem;
+	parentDiv.appendChild(singleDiv);
 	})
 }
